@@ -1,3 +1,5 @@
+/*Given an array of positive integers of size n, find the minimum repeating number and its 
+frequency in this array.*/
 #include <stdio.h>
 int main()
 {

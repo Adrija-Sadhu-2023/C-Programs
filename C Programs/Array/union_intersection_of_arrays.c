@@ -1,3 +1,4 @@
+/* Perform union and intersection of two integer arrays.*/
 #include<stdio.h>
 
 void uni(int a[],int b[],int m,int n) {
