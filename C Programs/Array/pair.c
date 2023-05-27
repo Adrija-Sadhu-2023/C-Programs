@@ -1,3 +1,6 @@
+/*Given two sorted arrays and a number x, find the pair whose sum is equal to x and the pair 
+has an element from each array.
+*/
 #include<stdio.h>
 void pair(int a[],int b[],int m,int n,int x)
 {
@@ -8,7 +11,7 @@ void pair(int a[],int b[],int m,int n,int x)
         for(j=0;j<n;j++)
         {
             if(a[i]+b[j]==x)
-            printf(" %d and %d",a[i],b[j]);
+            printf(" \n %d and %d",a[i],b[j]);
         }
     } 
  }
